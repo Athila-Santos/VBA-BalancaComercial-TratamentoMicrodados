@@ -86,10 +86,6 @@ O script realiza as seguintes operações:
 
 Sinta-se à vontade para fazer um fork deste repositório, criar issues ou enviar pull requests para melhorias no script.
 
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
 ---
 
 Se tiver alguma dúvida ou sugestão, por favor entre em contato. Agradecemos seu interesse e colaboração!
