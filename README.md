@@ -52,7 +52,7 @@ O script realiza as seguintes operações:
     ```
 
 4. **Cópia de Dados**:
-    - **Cópia Inicial**:
+    - **Cópia da descrição dos valores por Via,	UF do Produto, URF,	Países,	Código Seção & Descrição Seção**:
         ```vba
         Set sourceRange = wsResultado.Range(wsResultado.Cells(2, 1), wsResultado.Cells(10139, 6))
         
@@ -62,7 +62,7 @@ O script realiza as seguintes operações:
         Next i
         ```
 
-    - **Cópia Adicional**:
+    - **Cópia dos valores de US$ FOB e Kg Líquido das colunas 1997-2023 em uma única coluna para cada variável**:
         ```vba
         endRow = 10139
         destRow = 2
@@ -81,6 +81,12 @@ O script realiza as seguintes operações:
 2. Pressione `ALT + F11` para abrir o Editor do VBA.
 3. Insira um novo módulo e cole o script VBA fornecido.
 4. Execute o script (`F5`) para transformar os dados conforme descrito.
+
+## Resultado Final
+
+- **Permite a visualização dos dados por meio de tabelas dinâmicas, o que otimiza a análise exploratória.**
+
+![image](https://github.com/Athila-Santos/VBA-scriptManipulacaoMicrodados/assets/150980395/3114eeee-6fe4-4ccb-b5d5-340f0c74f2f3)
 
 ## Contribuições
 
